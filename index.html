@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-900 text-white leading-relaxed">
+
+    <div class="fixed inset-0 z-[-1] overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&q=80&w=1920" 
+             class="w-full h-full object-cover opacity-40" alt="background">
+    </div>
+
+    <div class="min-h-screen flex items-center justify-center p-6">
+        <div class="max-w-md w-full backdrop-blur-xl bg-white/10 p-10 rounded-3xl shadow-2xl border border-white/20 text-center transform transition hover:scale-[1.02] duration-300">
+            
+            <div class="mb-6">
+                <div class="w-24 h-24 mx-auto bg-gradient-to-tr from-cyan-400 to-blue-600 rounded-full p-1">
+                    <div class="w-full h-full bg-slate-800 rounded-full flex items-center justify-center text-3xl">👋</div>
+                </div>
+            </div>
+
+            <h1 class="text-4xl font-bold mb-2 tracking-tight">在这里输入你的姓名</h1>
+            
+            <p class="text-cyan-400 font-medium mb-6 uppercase tracking-widest text-sm">个人开发者 / 终身学习者</p>
+            
+            <p class="text-slate-300 mb-8 text-lg">
+                这是你的描述。你可以在这里写下你的格言、擅长的技术栈或者目前正在专注的事情。简洁明了最重要。
+            </p>
+
+            <div class="space-y-4">
+                <a href="#" class="block w-full py-3 px-6 bg-white text-slate-900 font-bold rounded-xl hover:bg-cyan-400 hover:text-white transition-colors">
+                    查看我的简历
+                </a>
+                <div class="flex justify-center space-x-6 text-2xl pt-4">
+                    <a href="#" class="text-white hover:text-cyan-400 transition">GitHub</a>
+                    <a href="#" class="text-white hover:text-cyan-400 transition">Blog</a>
+                    <a href="#" class="text-white hover:text-cyan-400 transition">Email</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
