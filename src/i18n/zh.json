@@ -1,0 +1,21 @@
+{
+    "nav": {
+        "home": "首页",
+        "about": "关于",
+        "articles": "文章"
+    },
+    "hero": {
+        "title": "欢迎来到我的个人空间",
+        "subtitle": "软件工程师 | 创作者 | 追梦人",
+        "cta": "查看我的故事"
+    },
+    "about": {
+        "title": "关于我",
+        "content": "你好！我是一名热衷于构建有意义的事物的开发者。我坚信简洁的代码、优秀的设计和不断的学习。"
+    },
+    "articles": {
+        "title": "我的文章",
+        "readMore": "阅读更多"
+    },
+    "language": "English"
+}

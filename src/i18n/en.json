@@ -1,0 +1,21 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "articles": "Articles"
+    },
+    "hero": {
+        "title": "Welcome to My Personal Space",
+        "subtitle": "Software Engineer | Creator | Dreamer",
+        "cta": "Read My Stories"
+    },
+    "about": {
+        "title": "About Me",
+        "content": "Hi! I am a passionate developer who loves building things that matter. I believe in clean code, good design, and continuous learning."
+    },
+    "articles": {
+        "title": "My Articles",
+        "readMore": "Read More"
+    },
+    "language": "中文"
+}
