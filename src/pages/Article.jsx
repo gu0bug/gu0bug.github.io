@@ -1,8 +1,10 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Article = () => {
     const { id } = useParams();
+    const { t } = useTranslation();
 
     // In a real app, you'd fetch based on ID. This is a simplified demo.
     const articleContent = {
@@ -18,17 +20,19 @@ const Article = () => {
     };
 
     return (
-        <div className="container section">
-            <Link to="/" style={{ color: '#2563eb', display: 'block', marginBottom: '2rem' }}>← Back to Home</Link>
-            <article>
-                <header style={{ marginBottom: '3rem' }}>
-                    <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>{articleContent.title}</h1>
-                    <p style={{ color: '#64748b' }}>Published on {articleContent.date}</p>
-                </header>
-                <div style={{ fontSize: '1.2rem', whiteSpace: 'pre-line' }}>
-                    {articleContent.content}
-                </div>
-            </article>
+        <div className="container">
+            <div className="glass-card">
+                <Link to="/" style={{ color: 'var(--primary-color)', display: 'block', marginBottom: '2rem' }}>← {t('articles.back')}</Link>
+                <article>
+                    <header style={{ marginBottom: '3rem', background: 'transparent', border: 'none', position: 'static', height: 'auto' }}>
+                        <h1 style={{ fontSize: '3rem', marginBottom: '1rem' }}>{articleContent.title}</h1>
+                        <p style={{ color: 'var(--secondary-color)' }}>{t('articles.published')} {articleContent.date}</p>
+                    </header>
+                    <div style={{ fontSize: '1.2rem', whiteSpace: 'pre-line' }}>
+                        {articleContent.content}
+                    </div>
+                </article>
+            </div>
         </div>
     );
 };

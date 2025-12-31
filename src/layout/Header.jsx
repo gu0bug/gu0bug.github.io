@@ -13,12 +13,13 @@ const Header = () => {
     return (
         <header>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', width: '100%', alignItems: 'center' }}>
-                <Link to="/" style={{ fontSize: '1.5rem', fontWeight: 'bold' }}>PORTFOLIO</Link>
+                <Link to="/" className="logo">{t('nav.portfolio')}</Link>
                 <nav>
                     <ul>
                         <li><Link to="/">{t('nav.home')}</Link></li>
-                        <li><a href="#about">{t('nav.about')}</a></li>
-                        <li><a href="#articles">{t('nav.articles')}</a></li>
+                        <li><Link to="/about">{t('nav.about')}</Link></li>
+                        <li><Link to="/articles">{t('nav.articles')}</Link></li>
+                        <li><Link to="/contact">{t('nav.contact')}</Link></li>
                     </ul>
                 </nav>
                 <button className="lang-switch" onClick={toggleLanguage}>

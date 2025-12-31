@@ -2,11 +2,13 @@
     "nav": {
         "home": "Home",
         "about": "About",
-        "articles": "Articles"
+        "articles": "Articles",
+        "contact": "Contact",
+        "portfolio": "PORTFOLIO"
     },
     "hero": {
-        "title": "Welcome to My Personal Space",
-        "subtitle": "Software Engineer | Creator | Dreamer",
+        "title": "Welcome to Gu0' Pages",
+        "subtitle": "Digital Nomad",
         "cta": "Read My Stories"
     },
     "about": {
@@ -15,7 +17,17 @@
     },
     "articles": {
         "title": "My Articles",
-        "readMore": "Read More"
+        "readMore": "Read More",
+        "back": "Back to Home",
+        "published": "Published on"
+    },
+    "contact": {
+        "title": "Contact Me",
+        "subtitle": "You can find me through the following ways"
+    },
+    "footer": {
+        "rights": "All rights reserved",
+        "builtWith": "Built with React & Vite"
     },
     "language": "中文"
 }

@@ -1,16 +1,19 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { useTranslation } from 'react-i18next';
 
 const Home = () => {
+    const { t } = useTranslation();
+
     return (
         <div className="landing-page">
-            <div className="glass-container">
-                <h1 className="landing-title">Gu0’ Pages</h1>
-                <p className="landing-subtitle">数字游民</p>
+            <div className="glass-card text-center">
+                <h1 className="landing-title">{t('hero.title')}</h1>
+                <p className="landing-subtitle">{t('hero.subtitle')}</p>
                 <nav className="landing-nav">
-                    <Link to="/articles" className="landing-btn">文章列表</Link>
-                    <Link to="/about" className="landing-btn">关于</Link>
-                    <Link to="/contact" className="landing-btn">联系</Link>
+                    <Link to="/articles" className="landing-btn">{t('nav.articles')}</Link>
+                    <Link to="/about" className="landing-btn">{t('nav.about')}</Link>
+                    <Link to="/contact" className="landing-btn">{t('nav.contact')}</Link>
                 </nav>
             </div>
         </div>

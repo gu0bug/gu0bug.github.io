@@ -2,11 +2,13 @@
     "nav": {
         "home": "首页",
         "about": "关于",
-        "articles": "文章"
+        "articles": "文章",
+        "contact": "联系",
+        "portfolio": "作品集"
     },
     "hero": {
-        "title": "欢迎来到我的个人空间",
-        "subtitle": "软件工程师 | 创作者 | 追梦人",
+        "title": "Welcome to Gu0' Pages",
+        "subtitle": "数字游民",
         "cta": "查看我的故事"
     },
     "about": {
@@ -15,7 +17,17 @@
     },
     "articles": {
         "title": "我的文章",
-        "readMore": "阅读更多"
+        "readMore": "阅读更多",
+        "back": "返回主页",
+        "published": "发布于"
+    },
+    "contact": {
+        "title": "联系我",
+        "subtitle": "可以通过以下方式找到我"
+    },
+    "footer": {
+        "rights": "保留所有权利",
+        "builtWith": "使用 React & Vite 构建"
     },
     "language": "English"
 }
