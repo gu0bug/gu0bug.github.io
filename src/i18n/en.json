@@ -7,7 +7,7 @@
         "portfolio": "Gu0"
     },
     "hero": {
-        "title": "Gu0’ Pages",
+        "title": "Gu0's Pages",
         "subtitle": "Architecting Peace in Chaos",
         "cta": "Read My Stories"
     },
@@ -42,7 +42,16 @@
     },
     "contact": {
         "title": "Contact Me",
-        "subtitle": "You can find me through the following ways"
+        "mission": "Building Infrastructure for the Trustless Future.",
+        "philosophy": "Don't Trust. Verify.",
+        "background": "As a builder for many years in the open-source community, I deeply understand the power of 'Open'.",
+        "vision": "As the world migrates from the walled gardens of Web2 to the frontiers of Web3, we are the ones laying the fiber and building the base stations on that frontier.",
+        "credo": "No Token hype. Only casting the cornerstone of Consensus.",
+        "roles": {
+            "architect": "Layer 0 Architect: Whether running a Validator node or building censorship-resistant decentralized storage, all for digital freedom.",
+            "operator": "DAO Operator: Transforming traditional team management wisdom into on-chain governance logic—making code truly law."
+        },
+        "footer": "[ gu0bug0@gmail.com ] WAGMI."
     },
     "footer": {
         "rights": "All rights reserved",

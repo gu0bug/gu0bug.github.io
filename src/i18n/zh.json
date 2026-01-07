@@ -42,7 +42,16 @@
     },
     "contact": {
         "title": "联系我",
-        "subtitle": "可以通过以下方式找到我"
+        "mission": "Building Infrastructure for the Trustless Future.",
+        "philosophy": "不要相信 (Don't Trust)。请验证 (Verify)。",
+        "background": "作为在开源社区浸淫多年的建设者，深知 \"Open\" 的力量。",
+        "vision": "当世界正在从 Web2 的围墙花园向 Web3 的荒原迁徙时，我们是那个在荒原上铺设光缆和基站的人。",
+        "credo": "不炒作 Token，只铸造 共识 (Consensus) 的基石。",
+        "roles": {
+            "architect": "Layer 0 Architect: 无论是运行验证节点 (Validator)，还是构建抗审查的去中心化存储，为了数字自由。",
+            "operator": "DAO Operator: 将传统的团队管理智慧转化为链上的治理逻辑，让代码真正成为法律。"
+        },
+        "footer": "[ gu0bug0@gmail.com ] WAGMI."
     },
     "footer": {
         "rights": "保留所有权利",
