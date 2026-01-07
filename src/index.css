@@ -252,14 +252,18 @@ h1 {
 }
 
 .about-header {
-  margin-bottom: 3rem;
-  border-bottom: 1px solid var(--glass-border);
-  padding-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
 }
 
 .about-title {
   font-size: clamp(2rem, 5vw, 3.5rem);
-  margin-bottom: 0.5rem;
+  margin-bottom: 0;
   line-height: 1.2;
 }
 
@@ -267,6 +271,7 @@ h1 {
   font-size: 1.2rem;
   color: var(--secondary-color);
   font-weight: 500;
+  margin-bottom: 3rem;
 }
 
 .about-intro {
@@ -281,7 +286,7 @@ h1 {
 
 .about-intro .vision {
   font-weight: 600;
-  color: #93c5fd;
+  color: #ffffff;
   font-size: 1.1rem;
 }
 

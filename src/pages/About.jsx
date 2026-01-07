@@ -8,8 +8,8 @@ const About = () => {
             <div className="glass-card">
                 <header className="about-header">
                     <h1 className="about-title">{t('about.title')}</h1>
-                    <p className="about-tagline">{t('about.intro')}</p>
                 </header>
+                <p className="about-tagline">{t('about.intro')}</p>
 
                 <section className="about-intro">
                     <p className="description">{t('about.description')}</p>
