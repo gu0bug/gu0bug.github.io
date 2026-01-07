@@ -58,7 +58,7 @@ body {
 }
 
 /* Header Styling */
-header {
+.main-header {
   height: 80px;
   display: flex;
   align-items: center;
@@ -68,10 +68,10 @@ header {
   border-bottom: 1px solid var(--glass-border);
   position: sticky;
   top: 0;
-  z-index: 1000;
+  z-index: 9999;
 }
 
-header .container {
+.main-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -187,7 +187,7 @@ nav a:hover:after {
   height: 100%;
   background: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(4px);
-  z-index: 1999;
+  z-index: 10000;
   opacity: 0;
   visibility: hidden;
   transition: var(--transition);
@@ -208,7 +208,7 @@ nav a:hover:after {
   backdrop-filter: blur(20px);
   -webkit-backdrop-filter: blur(20px);
   border-left: 1px solid var(--glass-border);
-  z-index: 2000;
+  z-index: 10001;
   transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   flex-direction: column;
@@ -227,12 +227,24 @@ nav a:hover:after {
 }
 
 .close-btn {
-  background: none;
-  border: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--glass-border);
   color: #fff;
-  font-size: 2.5rem;
+  font-size: 1.5rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
-  line-height: 1;
+  transition: var(--transition);
+}
+
+.close-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #fff;
+  transform: rotate(90deg);
 }
 
 .mobile-nav ul {
@@ -496,7 +508,7 @@ h1 {
 
 /* Responsiveness */
 @media (max-width: 768px) {
-  header {
+  .main-header {
     height: 70px;
   }
 

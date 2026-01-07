@@ -26,7 +26,7 @@ const Header = () => {
     ];
 
     return (
-        <header>
+        <header className="main-header">
             <div className="container header-container">
                 <Link to="/" className="logo" onClick={closeMenu}>{t('nav.portfolio')}</Link>
 
@@ -44,11 +44,13 @@ const Header = () => {
                         {t('language')}
                     </button>
 
-                    <button className={`hamburger ${isMenuOpen ? 'open' : ''}`} onClick={toggleMenu} aria-label="Menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </button>
+                    {!isMenuOpen && (
+                        <button className="hamburger" onClick={toggleMenu} aria-label="Menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                    )}
                 </div>
 
                 {/* Mobile Sidebar */}
