@@ -35,6 +35,7 @@
     },
     "articles": {
         "title": "My Articles",
+        "comingSoon": "Coming soon...",
         "readMore": "Read More",
         "back": "Back to Home",
         "published": "Published on"

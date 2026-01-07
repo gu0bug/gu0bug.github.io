@@ -7,7 +7,7 @@ const Articles = () => {
         <div className="container">
             <div className="glass-card">
                 <h1>{t('articles.title')}</h1>
-                <p style={{ color: 'var(--secondary-color)' }}>Coming soon...</p>
+                <p style={{ color: 'var(--secondary-color)' }}>{t('articles.comingSoon')}</p>
             </div>
         </div>
     );

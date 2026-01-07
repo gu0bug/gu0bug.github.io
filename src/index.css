@@ -349,12 +349,12 @@ h1 {
   justify-content: center;
 }
 
-.landing-active main {
-  padding: 0;
+.landing-active .landing-page {
+  min-height: calc(100vh - 80px);
 }
 
-.landing-active .landing-page {
-  min-height: 100vh;
+.landing-active .desktop-nav {
+  display: none;
 }
 
 .landing-title {

@@ -35,6 +35,7 @@
     },
     "articles": {
         "title": "我的文章",
+        "comingSoon": "即将推出...",
         "readMore": "阅读更多",
         "back": "返回主页",
         "published": "发布于"

@@ -17,7 +17,7 @@ const AppContent = () => {
 
   return (
     <div className={`app ${isLanding ? 'landing-active' : ''}`}>
-      {!isLanding && <Header />}
+      <Header />
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
