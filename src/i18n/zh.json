@@ -4,16 +4,34 @@
         "about": "关于",
         "articles": "文章",
         "contact": "联系",
-        "portfolio": "作品集"
+        "portfolio": "Gu0"
     },
     "hero": {
         "title": "Gu0’ Pages",
-        "subtitle": "数字游民",
+        "subtitle": "于混沌之中，敕造安宁",
         "cta": "查看我的故事"
     },
     "about": {
-        "title": "关于我",
-        "content": "你好！我是一名热衷于构建有意义的事物的开发者。我坚信简洁的代码、优秀的设计和不断的学习。"
+        "title": "在混乱中架构宁静",
+        "intro": "在熵增的数字宇宙里，建立秩序。",
+        "description": "我曾亲历互联网最迅猛的黄金增长期。在那些业务指数级膨胀、服务器时刻面临熔断的日子里，我习惯了在风暴眼中工作——不仅要在高速飞行的火箭上更换引擎，还要确保它飞得更稳。",
+        "vision": "带着这些在亿级流量实战中磨砺出的直觉，致力于应对极端挑战。",
+        "roles": {
+            "architect": {
+                "title": "The Architect (架构者)",
+                "content": "从 ToC 巨头的流量洪峰，到 SaaS 平台的稳定性治理。"
+            },
+            "builder": {
+                "title": "The Builder (建设者)",
+                "content": "深入云的泥沼，统筹产品与技术，铺设通往标准化的坦途。"
+            },
+            "leader": {
+                "title": "The Leader (领航者)",
+                "content": "代码只是工具，人才是核心。将一支支“技术特种部队”凝聚在一起，在不确定的技术洪流中，交付最确定的产品价值。"
+            }
+        },
+        "philosophy": "既懂底层的 0 和 1，也懂产品背后的得与失。",
+        "final": "I turn hyper-growth chaos into reliable engineering."
     },
     "articles": {
         "title": "我的文章",

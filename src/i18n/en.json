@@ -4,16 +4,34 @@
         "about": "About",
         "articles": "Articles",
         "contact": "Contact",
-        "portfolio": "PORTFOLIO"
+        "portfolio": "Gu0"
     },
     "hero": {
         "title": "Gu0’ Pages",
-        "subtitle": "Digital Nomad",
+        "subtitle": "Architecting Peace in Chaos",
         "cta": "Read My Stories"
     },
     "about": {
-        "title": "About Me",
-        "content": "Hi! I am a passionate developer who loves building things that matter. I believe in clean code, good design, and continuous learning."
+        "title": "Architecting Peace in Chaos.",
+        "intro": "Establishing order in an entropy-increasing digital universe.",
+        "description": "I lived through the most rapid 'Golden Age' of the internet. In those days of exponential business expansion and constant server meltdowns, I grew accustomed to working in the eye of the storm—not only replacing engines on a high-speed rocket but ensuring it flew more steadily than ever.",
+        "vision": "With intuition honed through handling billion-level traffic, I am dedicated to addressing extreme challenges.",
+        "roles": {
+            "architect": {
+                "title": "The Architect",
+                "content": "From traffic surges at ToC giants to stability governance for SaaS platforms."
+            },
+            "builder": {
+                "title": "The Builder",
+                "content": "Diving into the cloud trenches, orchestrating product and technology to pave the way toward standardization."
+            },
+            "leader": {
+                "title": "The Leader",
+                "content": "Code is just a tool; people are the core. Uniting 'technical special forces' to deliver definitive product value amidst the uncertain tides of technology."
+            }
+        },
+        "philosophy": "Understanding both the underlying 0s and 1s, and the trade-offs behind the product.",
+        "final": "I turn hyper-growth chaos into reliable engineering."
     },
     "articles": {
         "title": "My Articles",
