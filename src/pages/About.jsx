@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div className="container about-page">
             <div className="glass-card">
-                <header className="about-header text-center">
+                <header className="about-header">
                     <h1 className="about-title">{t('about.title')}</h1>
                     <p className="about-tagline">{t('about.intro')}</p>
                 </header>
