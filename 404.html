@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirecting...</title>
+    <script>
+        // 自动提取原路径与参数：/posts/xxx?a=1#hash -> 拼接到新域名
+        const newOrigin = "https://guobug.github.io";
+        const targetUrl = newOrigin + window.location.pathname + window.location.search + window.location.hash;
+        window.location.replace(targetUrl);
+    </script>
+</head>
+<body style="background:#000; color:#fff; font-family:monospace; padding:2rem;">
+    <p>Redirecting to new domain...</p>
+</body>
+</html>
