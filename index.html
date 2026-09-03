@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>301 Redirecting to GUOQIANG.PRODUCT...</title>
+    <!-- 1. SEO 标准：告诉搜索引擎旧网址的规范地址是新网址，传递 PageRank 权重 -->
+    <link rel="canonical" href="https://guobug.github.io/">
+    <!-- 2. 浏览器原生 0 秒重定向 (搜索引擎识别为永久重定向) -->
+    <meta http-equiv="refresh" content="0; url=https://guobug.github.io/">
+    <!-- 3. JS 无缝替换历史记录 (用户点击返回键不会陷入死循环) -->
+    <script>
+        window.location.replace("https://guobug.github.io/" + window.location.search + window.location.hash);
+    </script>
+</head>
+<body style="background:#000; color:#7fff00; font-family:monospace; padding:2rem;">
+    <p>⚡ Redirecting to <a href="https://guobug.github.io/" style="color:#fff;">https://guobug.github.io/</a>...</p>
+</body>
+</html>
